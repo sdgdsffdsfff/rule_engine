@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PrivilegeItem>
+  <PrivilegeItemId desc="订单优惠编号">PV0C100818A</PrivilegeItemId>
+  <PrivilegeItemTitle desc="订单优惠标题">满50换购</PrivilegeItemTitle>
+  <Description desc="简单描述">满50换购</Description>
+  <PrivilegeId desc="优惠类型编号">PV0C</PrivilegeId>
+  <RuleDefine desc="规则定义">
+    <!--是不是包含未促销过的商品金额，还是所有商品金额-->
+    <!--多少金额之间，折扣一定金额-->
+    <IsAmountTotal>1</IsAmountTotal>
+    <!--1是：指的是AmountTotal  0否：指的是AmountNomal-->
+    <MinValue desc="最小金额">50</MinValue>
+    <MaxValue desc="最大金额">999999</MaxValue>
+    <ProductId desc="换购商品编号">1009000717</ProductId>
+    <ProductTitle desc="换购商品名称">[美美]时尚格纹抽绳休闲斜挎包</ProductTitle>
+    <Weight desc="重量">0.38</Weight>
+    <StandardPrice desc="麦包价">29.00</StandardPrice>
+    <SalePrice desc="换购价">10</SalePrice>
+    <Quantity desc="换购数量">1</Quantity>
+  </RuleDefine>
+</PrivilegeItem>

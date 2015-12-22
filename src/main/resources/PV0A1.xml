@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PrivilegeItem>
+  <PrivilegeItemId desc="订单优惠编号">PV0A100813A</PrivilegeItemId>
+  <PrivilegeItemTitle desc="订单优惠标题">满50元立减10元</PrivilegeItemTitle>
+  <Description desc="简单描述">满50元立减10元</Description>
+  <PrivilegeId desc="优惠类型编号">PM0A</PrivilegeId>
+  <RuleDefine desc="规则定义">
+    <!--是不是包含未促销过的商品金额，还是所有商品金额-->
+    <!--多少金额之间，减免一定金额-->
+    <IsAmountTotal>0</IsAmountTotal>
+    <!--1是：指的是AmountTotal  0否：指的是AmountNomal-->
+    <MinValue desc="最小金额">50</MinValue>
+    <MaxValue desc="最大金额">99999</MaxValue>
+    <SaleOff desc="扣减金额">10</SaleOff>
+  </RuleDefine>
+</PrivilegeItem>

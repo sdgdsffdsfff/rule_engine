@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PromoteItem>
+  <PromoteItemId desc="促销活动编号">PM0C100818A</PromoteItemId>
+  <PromoteItemTitle desc="促销活动标题">赠品</PromoteItemTitle>
+  <Description desc="简单描述">赠品</Description>
+  <PromotionId desc="促销类型编号">PM0F</PromotionId>
+  <RuleDefine desc="规则定义">
+    <PMCategoryId desc="参与活动的促销分类编号">P01</PMCategoryId>
+    <ProductId desc="赠品编号">1009000717</ProductId>
+    <ProductTitle desc="赠品名称">[美美]时尚格纹抽绳休闲斜挎包</ProductTitle>
+    <Weight desc="重量">0.38</Weight>
+    <StandardPrice desc="麦包价">29.00</StandardPrice>
+    <Quantity desc="数量">1</Quantity>
+  </RuleDefine>
+</PromoteItem>

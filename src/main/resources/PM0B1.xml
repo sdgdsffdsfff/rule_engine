@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PromoteItem>
+  <PromoteItemId desc="促销活动编号">PM0B100818A</PromoteItemId>
+  <PromoteItemTitle desc="促销活动标题">热销商品9折</PromoteItemTitle>
+  <Description desc="简单描述">热销商品9折</Description>
+  <PromotionId desc="促销类型编号">PM0B</PromotionId>
+  <RuleDefine desc="规则定义">
+    <PMCategoryId desc="参与活动的促销分类编号">P01</PMCategoryId>
+    <SaleOff desc="折扣数量">90</SaleOff>
+  </RuleDefine>
+</PromoteItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PromoteItem>
+  <PromoteItemId desc="促销活动编号">PM0E100819A</PromoteItemId>
+  <PromoteItemTitle desc="促销活动标题">1件50元2件40元</PromoteItemTitle>
+  <Description desc="简单描述">1件50元2件40元</Description>
+  <PromotionId desc="促销类型编号">PM0E</PromotionId>
+  <RuleDefine desc="规则定义">
+    <PMCategoryId desc="参与活动的促销分类编号">P01</PMCategoryId>
+    <SalePrice desc="促销价格(单个或多个从大到小)">50;40</SalePrice>
+  </RuleDefine>
+</PromoteItem>
